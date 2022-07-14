@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+    font-family: poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(219, 97, 243, 0.432);
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+form{
+    max-width: 100%;
+width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.list{
+    max-width: 100%;
+    width: 400px;
+        margin: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    list-style-type: none;
+}
+.list li{
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+}
+.list li.done{
+   text-decoration: line-through;
+   color: rgb(211, 210, 210);
+}
+small{
+    font-size:16px;
+    color: rgba(107, 107, 107, 0.493);
+    justify-self: center;
+    align-self: center;
+
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
